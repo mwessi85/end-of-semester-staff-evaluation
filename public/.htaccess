@@ -1,0 +1,4 @@
+RewriteEngine on
+
+RewriteRule ^(index)$ $1.php [NC,L]
+RewriteRule ^public/index$ index [NC,L]
